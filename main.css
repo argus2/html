@@ -1,4 +1,120 @@
-.background{
+body {
+margin: 0px;
+padding: 0px;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+.background {
 	background-color:#110D0D;
-	color: #FFFFFF
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+
+}
+
+#special {
+border-top: 5px solid #E5DF35;
+border-right: 2px dotted #25FB1A;
+border-bottom: 5px dashed #F95A5A;
+border-left: 2px dotted #6FB2F6;
+border: 3px solid #F7C9D3;
+padding: 10px 20px;
+background-color: #F6F9AF;
+margin: 10px;    
+}
+
+#mainHeader {
+	background: #333;
+	color: #FFFFFF;
+	padding: auto;
+	text-align: center; 
+}
+
+#mainNav {
+	background: #ccc;
+	color: #fff;
+}
+
+#mainNav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#mainNav li {
+	display: inline;
+	padding: 5px 10px
+}
+
+#mainNav li:hover {
+	background: #aaa;
+}
+
+#mainNav a {
+	color: black;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+h1 {
+	color: #30FBE1;
+	font-size: 50px;
+}
+
+
+#jumbo {
+	background-image: url('img/kiss.jpg');
+	background-position: center center;
+	min-height: 300px;
+	text-align: center;
+}
+
+#jumbo h1 {
+	color: #291D1D;
+	font-size: 45px;
+	padding-top: 30px;
+	line-height: 1.6em;
+}
+
+#sideList {
+	float: left;
+	border-right: 2px solid #2C2828;
+	width: 30%;  
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+
+#main {
+	float: right;
+	width: 70%;
+	padding: 0px 30px;
+	box-sizing: border-box;
+}
+
+#mainFooter {
+	background-color:  #333;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	padding: auto;
+	margin-top: 50px;
+}
+
+
+
+/*Using mediaqueries to get flexibility of page*/
+@media (max-width: 300px) {
+	#main, #sideList {
+		width: 100%;
+		float: none;
+		border: none;
+	}
 }
