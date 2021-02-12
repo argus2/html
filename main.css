@@ -36,9 +36,15 @@ margin: 10px;
 	text-align: center; 
 }
 
+.clearFix {
+	clear: both;
+}
+
+
 #mainNav {
 	background: #ccc;
 	color: #fff;
+	position: sticky;
 }
 
 #mainNav ul {
@@ -107,7 +113,6 @@ h1 {
 	padding: auto;
 	margin-top: 50px;
 }
-
 
 
 /*Using mediaqueries to get flexibility of page*/
